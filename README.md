@@ -1,1 +1,2 @@
-# mksite
+# MKOne WordPress Theme
+This is a WordPress Theme. Place the mkone folder with the files inside a themes folder of a WordPress installation. Alternatively you can upload a mkone.zip archive via WordPress admin dashboard: Appearance -> Themes -> Add New -> Activate

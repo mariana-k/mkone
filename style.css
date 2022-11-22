@@ -1,4 +1,56 @@
+/*
+Theme Name: MKOne
+Theme URI: https://github.com/mariana-k/mkone
+Author: Mariana Kyrkosh
+Author URI: https://marianakyrkosh.com/
+Description: The theme is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mkone
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+:root {
+    --color-primary: #000000;
+    --color-secondary: #0423dd;
+    --color-attention: #ff0000;
+
+    --font-size-big: 1.5rem;
+    --font-size-regular: 1rem;
+    --font-size-small: .75rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-regular);
+}
+
 .no-results {
     text-align: center;
     margin: 2rem;
+}
+
+.page-header {
+    text-align: center;
+    margin: 2rem;
+}
+
+.page-title {
+    color: var(--primary);
+    font-size: var(--font-size-big);
+}
+
+.error-404 {
+    color: var(--attention);
+    font-size: var(--font-size-big);
+}
+
+.page-content {
+    font-size: var(--font-size-small);
 }
