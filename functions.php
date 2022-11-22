@@ -63,3 +63,5 @@ if ( ! function_exists( 'mkone_setup' ) ) :
 	}
 endif; // mkone_setup
 add_action( 'after_setup_theme', 'mkone_setup' );
+wp_enqueue_style( 'style', get_template_directory_uri() . '/css/main.css', false, '1.1', 'all' );
+wp_enqueue_script( 'script', get_template_directory_uri() . '/js/main.js', array(), 1.1, true);
