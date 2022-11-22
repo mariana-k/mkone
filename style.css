@@ -24,6 +24,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --font-size-big: 1.5rem;
     --font-size-regular: 1rem;
     --font-size-small: .75rem;
+
+    --space-regular: 2rem;
 }
 
 body {
@@ -33,7 +35,7 @@ body {
 
 .no-results {
     text-align: center;
-    margin: 2rem;
+    margin: var(--space-regular);
 }
 
 .page-header {
@@ -47,10 +49,35 @@ body {
 }
 
 .error-404 {
-    color: var(--attention);
+    color: var(--color-attention);
     font-size: var(--font-size-big);
 }
 
 .page-content {
     font-size: var(--font-size-small);
+}
+
+.content-area {
+    margin: var(--space-regular);
+}
+
+.site-main {
+    padding: var(--space-regular);
+}
+
+.entry-header {
+    padding: var(--space-regular) 0;
+}
+
+.entry-title {
+    font-size: var(--font-size-big);
+    color: var(--color-secondary);
+}
+
+.entry-content {
+    margin-top: var(--space-regular);
+}
+
+.site-main {
+    margin: var(--space-regular) 0;
 }
