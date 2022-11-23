@@ -15,6 +15,7 @@ get_header(); ?>
         <?php
         // Start the loop.
         while ( have_posts() ) : the_post();
+
             get_template_part( 'template-parts/content/content-single' );
         // End the loop.
         endwhile;
